@@ -1,11 +1,3 @@
-<%= title "Fullscreen Slider with Ken Burns Effect / mightySlider &middot; Mighty Responsive Multipurpose Slider" %>
-<% meta_description "LendIt Conference helps you learn, network, and connect with top internet finance leaders in the U.S., Europe and China. Join our rapidly growing team!" %>
-<% meta_keywords "lendit, home" %>
-<% body_class "pg-conferences" %>
-
-
-
-    <style>
       html, body {
         padding: 0;
         margin: 0;
@@ -177,29 +169,3 @@
           height: 250px;
         }
       }
-    </style>
-
-<div>this is the landing page yooooo</div>
-
-
-<div id="kenburns" class="mightyslider_modern_skin"> <!-- PARENT -->
-  <div class="frame"> <!-- FRAME -->
-    <div class="slide_element"> <!-- SLIDEELEMENT -->
-      <div class="slide mSKenburnsIn slow" data-mightyslider="cover: 'http://dummyimage.com/1920x1080/fd6a62/fff.png', title: 'Lorem ipsum dolor sit amet', description: 'In laoreet tortor et pellentesque iaculis. Maecenas non pulvinar ligula. Duis sed pharetra ante, sed congue nisl. Praesent sed ligula.'"></div> <!-- SLIDE -->
-      <div class="slide mSKenburnsOut slow" data-mightyslider="cover: 'http://dummyimage.com/1920x1080/0ac2d2/fff.png', title: 'Video also supported', description: 'You can use videos as background and have the ken burns effect without any worries.'"></div> <!-- SLIDE -->
-      <div class="slide mSKenburnsIn" data-mightyslider="cover: 'http://dummyimage.com/1920x1080/f68dbb/fff.png', title: 'Nullam in lorem commodo, tincidunt', description: 'Fusce et sem vel ligula tempor aliquet. Pellentesque purus velit, tempus vitae urna eu, dictum tristique odio. Praesent vel felis.'"></div> <!-- SLIDE -->
-      <div class="slide mSKenburnsOut" data-mightyslider="cover: 'http://dummyimage.com/1920x1080/60d7a9/fff.png', title: 'In tristique, ipsum ac fermentum', description: 'Nam porttitor mollis vehicula. Quisque commodo ante sed diam malesuada viverra. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec.'"></div> <!-- SLIDE -->
-      <div class="slide mSKenburnsIn" data-mightyslider="cover: 'http://dummyimage.com/1920x1080/fdc162/fff.png', title: 'Nam fermentum velit a viverra', description: 'Sed sed nibh sed nunc semper iaculis quis euismod felis. Morbi fringilla eget diam vel luctus. Nullam vitae elit arcu.'"></div> <!-- SLIDE -->
-    </div> <!-- /SLIDEELEMENT -->
-  </div> <!-- /FRAME -->
-
-  <div id="sliderContent">
-    <div id="sliderContentWrapper">
-      <div id="sliderContentItems"></div>
-    </div>
-
-    <ul id="sliderPages"></ul>
-  </div>
-
-  <a class="hover icon-expand icon-lg" id="fullscreen"></a>
-  </div> <!-- /PARENT -->
